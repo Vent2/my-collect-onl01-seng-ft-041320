@@ -9,7 +9,7 @@ def my_collect(arr)
      yielded_values << yield(arr[i])
 #     # increment by one
      i += 1
-#   end
+  end
    yielded_values
 #   # outside of while loop return array with yielded values
 end
