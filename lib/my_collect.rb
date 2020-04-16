@@ -1,7 +1,6 @@
 def my_collect(arr)
    i = 0
    yielded_values = []
-     while loop
    while i < arr.length
      yielded_values << yield(arr[i])
      i += 1
